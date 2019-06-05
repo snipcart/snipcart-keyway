@@ -1,0 +1,10 @@
+body {
+  @extend %txt--body;
+  position: relative;
+  color: cc(txt);
+  background-color: cc(bg);
+
+  ::selection {
+    background-color: cc(selection);
+  }
+}

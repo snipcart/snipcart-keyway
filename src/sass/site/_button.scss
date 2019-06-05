@@ -1,0 +1,17 @@
+.button {
+  @extend %txt--button;
+  padding: 0.625rem 1.25rem;
+
+  &--buy {
+    background-color: cc(primary);
+    color: cc(bg);
+    border-radius: 4px;
+    box-shadow: 0 0.25rem 0.25rem -0.125rem cc(shadow, 0.33);
+    transition: all 225ms cb();
+
+    &:hover {
+      background-color: cc(primary, darker);
+      color: white;
+    }
+  }
+}

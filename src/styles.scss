@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import
+// tools */
+'./sass/tools/mixins',
+'./sass/tools/colors',
+'./sass/tools/easings',
+'./sass/tools/functions',
+'./sass/tools/mediaqueries',
+// base */
+'./sass/base/reset',
+'./sass/base/fonts',
+'./sass/base/body',
+'./sass/base/icon',
+// blocks */
+'./sass/site/pace',
+'./sass/site/button',
+'./sass/site/nav',
+'./sass/site/catalog',
+'./sass/site/product',
+'./sass/site/footer'

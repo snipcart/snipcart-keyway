@@ -1,0 +1,14 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  display: inline-block;
+  text-decoration: inherit;
+
+  &--count {
+    display: inline-block;
+    vertical-align: super;
+    font-size: 0.8rem;
+    transform: translateY(-0.25rem);
+  }
+}

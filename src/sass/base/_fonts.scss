@@ -1,0 +1,31 @@
+// font families
+%ff--300 { @include font-stack('Barlow', 300) }
+%ff--500 { @include font-stack('Barlow', 500) }
+%ff--700 { @include font-stack('Barlow', 700) }
+
+// extend placeholders
+%txt--body {
+  @extend %ff--300;
+  font-size: 1rem;
+}
+
+%txt--product {
+  @extend %ff--300;
+  font-size: 1.15rem;
+  text-transform: capitalize;
+}
+
+%txt--price {
+  @extend %ff--500;
+  text-transform: capitalize;
+}
+
+%txt--button {
+  @extend %ff--700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+%txt--strong {
+  @extend %ff--700;
+}

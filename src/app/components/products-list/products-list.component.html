@@ -1,0 +1,16 @@
+<main class="catalog" *ngIf="!loading; else loadingBlock">
+    <app-products-list-item
+    class="catalog__product"
+      *ngFor="let product of products"
+      [product]="product">
+        {{ product.name }}
+    </app-products-list-item>
+</main>
+
+<ng-template #loadingBlock>
+  <main class="catalog catalog--loading">
+    <span class="catalog__loading">
+      Loading products...
+    </span>
+  </main>
+</ng-template>

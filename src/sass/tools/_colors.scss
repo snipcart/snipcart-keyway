@@ -1,0 +1,33 @@
+// colors
+$white: #fff;
+$ghost-white: #f2f2f2;
+$submarine: #8e989a;
+$gunmetal: #2a3744;
+$smoky-black: #0a0908;
+$aquamarine: #66d4ac;
+$seagull: #85b2d5;
+
+// cc map
+$colors:(
+  default:(
+    bg: $ghost-white,
+    txt: $smoky-black,
+    primary: $aquamarine,
+    accent: $seagull,
+    shadow: $gunmetal,
+    border: $submarine,
+    selection: rgba($seagull, .33)
+  ),
+
+  alt:(
+    txt: $gunmetal,
+    bg: $white,
+    border: $gunmetal
+  ),
+
+  darker:(
+    bg: $submarine,
+    border: $submarine,
+    primary: darken($aquamarine, 12.5%)
+  )
+);
