@@ -2,3 +2,8 @@
   command = "npm run build"
   publish = "dist/snipcart-angular-sanity"
   functions = "src/functions"
+[dev]
+  command = "npm start"
+  port = 4200
+  publish = "src"
+  functions = "src/functions"
