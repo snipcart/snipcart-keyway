@@ -1,3 +1,5 @@
+![angular-sanity-snipcart-headless-ecommerce](https://snipcart.com/media/175900/angular-sanity-snipcart-headless-ecommerce.jpg)
+
 # SnipcartAngularSanity
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
