@@ -1,30 +1,21 @@
 ![angular-sanity](https://snipcart.com/media/204439/angular-sanity.png)
 
+This was my first time playing with Angular and guess what I learned?
 
-# SnipcartAngularSanity
+It's awesome. Especially for e-commerce! 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+In this tutorial, I'll cover:
 
-## Development server
+* Updates on Angular v8.0
+* Angular for e-commerce 
+* Sanity as a headless CMS
+* Setting up a new Sanity CMS instance
+* Setting up Netlify for deployment and use Netlify functions to expose our data from Sanity
+* Building an Angular app with appropriate components to display storefront
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The result will be a fully decoupled  [JAMstack](https://jamstack.org/)  e-commerce bundle. 
 
-## Code scaffolding
+> [Read the full tutorial](https://snipcart.com/blog/headless-angular-ecommerce-app)
+> [Check out the live demo](https://snipcart-keyway.netlify.com/#/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Hope you enjoy! 
