@@ -8,3 +8,11 @@ body {
     background-color: cc(selection);
   }
 }
+
+
+.link {
+  &--external {
+    color: $seagull;
+    text-decoration: underline;
+  }
+}
