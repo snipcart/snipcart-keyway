@@ -1,4 +1,5 @@
-![angular-sanity-snipcart-headless-ecommerce](https://snipcart.com/media/175900/angular-sanity-snipcart-headless-ecommerce.jpg)
+![angular-sanity](https://snipcart.com/media/204439/angular-sanity.png)
+
 
 # SnipcartAngularSanity
 
