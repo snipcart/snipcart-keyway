@@ -16,6 +16,7 @@ In this tutorial, I'll cover:
 The result will be a fully decoupled  [JAMstack](https://jamstack.org/)  e-commerce bundle. 
 
 > [Read the full tutorial](https://snipcart.com/blog/headless-angular-ecommerce-app)
+
 > [Check out the live demo](https://snipcart-keyway.netlify.com/#/)
 
 Hope you enjoy! 
